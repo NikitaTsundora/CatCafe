@@ -24,7 +24,7 @@ jobs:
       run: chmod +x gradlew
 
     - name: Build
-      run: ./gradlew assemble --no-daemon
+      run: ./gradlew build --no-daemon
 
     - name: Run JUnit tests
       run: ./gradlew test --no-daemon
